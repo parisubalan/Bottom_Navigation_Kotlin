@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@color/transparent"
+        android:background="@android:color/transparent"
         app:fabCradleRoundedCornerRadius="@dimen/_15sdp"
         app:fabCradleVerticalOffset="@dimen/_3sdp">
 
@@ -28,7 +28,8 @@
             android:layout_marginEnd="16dp"
             app:labelVisibilityMode="selected"
             app:itemRippleColor="@color/bgBackSideColor"
-            android:background="@color/transparent"
+            app:itemBackground="@android:color/transparent"
+            android:background="@android:color/transparent"
             app:menu="@menu/home_menu" />
 
     </com.google.android.material.bottomappbar.BottomAppBar>

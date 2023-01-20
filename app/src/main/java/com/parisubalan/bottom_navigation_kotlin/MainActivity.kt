@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initialization() {
         replaceFragment(HomeFragment.getInstance("Home Screen"))
+        binding.bottomNavBar.background = null
         binding.bottomNavBar.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.home -> {
